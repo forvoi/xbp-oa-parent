@@ -56,6 +56,8 @@ public class Result<T>{
         return bulid(data,ResultCodeEnum.FAIL);
     }
 
+
+
     public Result<T> message(String msg){
         this.setMessage(msg);
         return this;
